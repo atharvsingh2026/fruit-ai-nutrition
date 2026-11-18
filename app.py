@@ -14,7 +14,7 @@ DATA = BASE / 'nutrition.csv'
 
 st.set_page_config(page_title='AI Fruit Nutrition Scanner', page_icon='🍎', layout='wide')
 st.title('🍎 AI Fruit Nutrition Scanner')
-st.caption('Class 12 AI Capstone | Educational project — not medical advice')
+st.caption('Class 12 AI Capstone | Educational project — not medical advice' | 'Developed by Atharv Singh (Class 12-B2)')
 
 @st.cache_resource
 def load_classifier():
